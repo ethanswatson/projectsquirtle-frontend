@@ -1,0 +1,20 @@
+{
+  "name": "project_squirtle_frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next ./src",
+    "build": "next build ./src",
+    "start": "next start ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Squirtle Squad",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^6.0.1",
+    "next": "^9.0.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
