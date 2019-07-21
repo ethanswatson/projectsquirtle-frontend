@@ -4,12 +4,15 @@ import Button from 'react-bootstrap/Button';
 
 const JoinSessionForm = () => {
   return (
-    <Form>
-      <Form.Control type="text" size="lg" placeholder="Session Id" />
-      <Button variant="primary" size="lg" type="submit" block>
-        Join
-      </Button>
-    </Form>
+    <>
+      <h1>Join a Quiz</h1>
+      <Form>
+        <Form.Control type="text" size="lg" placeholder="Session Id" />
+        <Button variant="primary" size="lg" type="submit" block>
+          Join
+        </Button>
+      </Form>
+    </>
   );
 };
 
