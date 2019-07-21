@@ -14,7 +14,7 @@ const Page = ({ children }) => {
   return (
     <StyledPage>
       <GlobalHeader />
-      <div>{children}</div>
+      {children}
     </StyledPage>
   );
 };
