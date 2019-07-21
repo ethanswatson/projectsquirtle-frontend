@@ -7,7 +7,8 @@
     "dev": "next ./src",
     "build": "next build ./src",
     "start": "next start ./src -p $PORT",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "git push heroku master"
   },
   "author": "Squirtle Squad",
   "license": "ISC",
