@@ -1,1 +1,9 @@
-export default () => <div>Welcome to next.js!</div>;
+import Page from '../components/applied/Page';
+
+export default () => {
+  return (
+    <>
+      <Page />
+    </>
+  );
+};
