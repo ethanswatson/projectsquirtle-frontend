@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import Container from '@material-ui/core/Container';
+import React from 'react';
 import styled from '@emotion/styled';
 import colors from '../../constants/colors';
 import GlobalHeader from './GlobalHeader';

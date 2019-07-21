@@ -1,6 +1,7 @@
+import React from 'react';
 import styled from '@emotion/styled';
-import colors from '../../constants/colors';
 import { MdPerson } from 'react-icons/md';
+import colors from '../../constants/colors';
 
 const StyledHeader = styled.header`
   background-color: ${colors.squirtle_blue};
@@ -46,7 +47,7 @@ const GlobalHeader = () => {
   return (
     <StyledHeader>
       <StyledLogoContainer>
-        <StyledLogo src='http://projectsquirtle.com/static/quizapp/images/projectSquirtle.png' />
+        <StyledLogo src="http://projectsquirtle.com/static/quizapp/images/projectSquirtle.png" />
       </StyledLogoContainer>
       <LoginModule />
     </StyledHeader>
