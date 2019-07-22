@@ -47,7 +47,7 @@ const GlobalHeader = () => {
   return (
     <StyledHeader>
       <StyledLogoContainer>
-        <StyledLogo src="/static/projectSquirtle.png" />
+        <StyledLogo src='/static/projectSquirtle.png' />
       </StyledLogoContainer>
       <LoginModule />
     </StyledHeader>

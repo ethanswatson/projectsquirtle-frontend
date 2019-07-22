@@ -8,7 +8,7 @@ const Index = () => {
   return (
     <Page>
       <CenteredRow>
-        <CenteredCol md="4" xs="10">
+        <CenteredCol md='4' xs='10'>
           <JoinSessionForm />
         </CenteredCol>
       </CenteredRow>

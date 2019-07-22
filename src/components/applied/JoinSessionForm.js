@@ -7,8 +7,8 @@ const JoinSessionForm = () => {
     <>
       <h1>Join a Quiz</h1>
       <Form>
-        <Form.Control type="text" size="lg" placeholder="Session Id" />
-        <Button variant="primary" size="lg" type="submit" block>
+        <Form.Control type='text' size='lg' placeholder='Session Id' />
+        <Button variant='primary' size='lg' type='submit' block>
           Join
         </Button>
       </Form>
