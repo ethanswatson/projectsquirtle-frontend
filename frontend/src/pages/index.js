@@ -9,6 +9,7 @@ const Index = () => {
     <Page>
       <CenteredRow>
         <CenteredCol md='4' xs='10'>
+          {test}
           <JoinSessionForm />
         </CenteredCol>
       </CenteredRow>
