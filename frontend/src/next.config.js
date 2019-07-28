@@ -4,7 +4,7 @@ const webpack = require('webpack');
 require('dotenv').config();
 
 module.exports = {
-  // distDir: '../dist',
+  distDir: '../dist',
   webpack: config => {
     // Fixes npm packages that depend on `fs` module
     config.node = {

@@ -19,6 +19,9 @@ from .projectsquirtle import views
 
 router = routers.DefaultRouter()
 router.register(r'users', views.UserViewSet)
+router.register(r'quizes', views.QuizViewSet)
+router.register(r'questions', views.QuestionViewSet)
+router.register(r'answers', views.AnswerViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
