@@ -1,12 +1,6 @@
-/** @jsx jsx */ // eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react';
 import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
-import { css, jsx } from '@emotion/core';
-
-const buttonStyles = css`
-  margin-top: 8px;
-`;
+import SubmitButton from '../base/SubmitButton';
 
 const JoinSessionForm = () => {
   const [sessionId, setSessionId] = useState('');
@@ -28,16 +22,11 @@ const JoinSessionForm = () => {
           maxLength='6'
           placeholder='Session Id'
         />
-        <Button
-          variant='primary'
-          css={[buttonStyles]}
-          size='lg'
-          type='submit'
-          block
+        <SubmitButton
           disabled={sessionId.length !== 6}
         >
           Join
-        </Button>
+        </SubmitButton>
       </Form>
     </>
   );
