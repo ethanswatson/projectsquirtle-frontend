@@ -1,0 +1,30 @@
+{
+  "name": "project_squirtle_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "10.16.0"
+  },
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "concurrently -k \"npm run build:watch\" \"npm run start dev\"",
+    "start:dev": "nodemon --inspect=0.0.0.0:9229 dist/index.js",
+    "build": "tsc",
+    "build:watch": "tsc -w"
+  },
+  "author": "Squirtle Squad",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.0",
+    "@types/node": "^12.7.1",
+    "@types/pg": "^7.4.14",
+    "express": "^4.17.1",
+    "pg": "^7.12.1",
+    "typescript": "^3.5.3"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.1",
+    "nodemon": "^1.19.1"
+  }
+}
